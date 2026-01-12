@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hii, Welcome to My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Paresh.</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h2>Hii, Welcome to <span>My Portfolio</span></h2>
+            <p>Java Developer • Web Developer • Student</p>
+            <button onclick="scrollToSection('contact')">Contact Me</button>
+        </div>
+
+        <div class="hero-image">
+            <!-- Replace profile.jpg with your actual image -->
+            <img src="https://via.placeholder.com/300" alt="Profile Photo">
+        </div>
+    </div>
+</section>
+
+
+    <!-- About -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate computer science student focused on Java and web development.
+            I enjoy building clean, user-friendly applications and constantly improving
+            my technical skills.
+        </p>
+    </section>
+
+    <!-- Education -->
+<section id="education" class="section">
+    <h2>Education</h2>
+
+    <div class="education-container">
+
+        <div class="education-card">
+            <h3>Secondary School (10th)</h3>
+            <p>School: <strong>Chandimata High School</strong></p>
+            <p>Address: <strong>Kanheipal ,Dhenkanal</strong></p>
+            <p>Percentage: <strong>61%</strong></p>
+            <span>Year: 2019 – 2020</span>
+        </div>
+
+        <div class="education-card">
+            <h3>Higher Secondary (+2 Science)</h3>
+            <p>Collage: <strong>Mathakaragola Highersecondary School</strong></p>
+            <p>Address: <strong>Mathakaragola ,Dhenkanal</strong></p>
+            <p>Percentage: <strong>72%</strong></p>
+            <span>Year: 2020 – 2022</span>
+        </div>
+
+        <div class="education-card">
+            <h3>B.Tech – Computer Science Engineering</h3>
+            <p>University: <strong>Centurion University Technology and Management</strong></p>
+            <p>Address: <strong>Jatani ,Khordha</strong></p>
+            <p>CGPA: <strong>8.24</strong> (Pursuing)</p>
+            <span>Year: 2023 – 2027</span>
+        </div>
+
+    </div>
+</section>
+
+   <!-- Skills -->
+<section id="skills" class="section">
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            <i class="fab fa-java"></i>
+            <span>Java</span>
+        </div>
+
+        <div class="skill-card">
+            <i class="fas fa-c"></i>
+            <span>C</span>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-python"></i>
+            <span>Python</span>
+        </div>
+
+        <div class="skill-card">
+            <i class="fas fa-brain"></i>
+            <span>Machine Learning</span>
+        </div>
+
+        <div class="skill-card">
+            <i class="fas fa-database"></i>
+            <span>MySQL</span>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-html5"></i>
+            <span>HTML</span>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-css3-alt"></i>
+            <span>CSS</span>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-js"></i>
+            <span>JavaScript</span>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-angular"></i>
+            <span>Angular</span>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- Projects -->
+<section id="projects" class="section">
+    <h2>Projects</h2>
+
+    <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+            <div class="project-header">
+                <i class="fas fa-ticket-alt"></i>
+                <h3>Online Reservation System</h3>
+            </div>
+
+            <p>
+                A Java-based application that allows users to reserve, cancel,
+                and view bookings with secure authentication and database
+                integration.
+            </p>
+
+            <a href="https://github.com/yourusername/online-reservation-system"
+               target="_blank"
+               class="project-link">
+                View Project
+            </a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <div class="project-header">
+                <i class="fas fa-building"></i>
+                <h3>Hostel Management System</h3>
+            </div>
+
+            <p>
+                A web-based system to manage hostel operations including student
+                records, room allocation, complaints, and role-based dashboards.
+            </p>
+
+            <a href="https://yourprojectlink.com"
+               target="_blank"
+               class="project-link">
+                View Project
+            </a>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- Contact -->
+<section id="contact" class="section">
+    <h2>Contact Me</h2>
+
+    <div class="contact-grid">
+
+        <a href="https://www.linkedin.com/in/yourusername" target="_blank" class="contact-card">
+            <i class="fab fa-linkedin"></i>
+            <span>LinkedIn</span>
+        </a>
+
+        <a href="https://github.com/yourusername" target="_blank" class="contact-card">
+            <i class="fab fa-github"></i>
+            <span>GitHub</span>
+        </a>
+
+        <a href="https://wa.me/919XXXXXXXXX" target="_blank" class="contact-card">
+            <i class="fab fa-whatsapp"></i>
+            <span>WhatsApp</span>
+        </a>
+
+        <a href="https://www.instagram.com/yourusername" target="_blank" class="contact-card">
+            <i class="fab fa-instagram"></i>
+            <span>Instagram</span>
+        </a>
+
+        <a href="mailto:yourmail@gmail.com" class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <span>Gmail</span>
+        </a>
+
+    </div>
+</section>
+
+
+
+    <footer>
+        <p>© 2026 Paresh Sahoo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
