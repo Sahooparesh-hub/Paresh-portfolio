@@ -386,6 +386,12 @@ header {
     opacity: 0.9;
 }
 
+#experience {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* space between the two cards */
+}
+
 /* ================= FULLSCREEN IMAGE ================= */
 
 .image-viewer {
